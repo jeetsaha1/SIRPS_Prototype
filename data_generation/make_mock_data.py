@@ -211,7 +211,7 @@ def build() -> None:
             "y_excess": rng.normal(0, 0.12),
             "y_abs": rng.normal(0.02, 0.16),
             "has_esg": bool(i % 3),
-            "esg_available_date": pd.Timestamp("2025-07-16") if i % 3 else pd.NaT,
+            "esg_available_date": date - pd.Timedelta(days=30) if i % 3 else pd.NaT,
             "in_A": True,
             "in_matched": bool(i % 3),
             "data_source": SOURCE,
