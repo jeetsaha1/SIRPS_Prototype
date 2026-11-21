@@ -1,0 +1,11 @@
+company_id,name,ISIN,NSE_symbol,sector,sub_sector,universe_group,eligibility_evidence,entry_date,exit_date,data_source
+C01,Surya Grid Renewables,INPY01,SURYA,Renewable Energy,Solar,core,Synthetic qualifying-revenue and filing evidence; public source citations not present,2020-01-01,,SYNTHETIC_DEMO
+C02,Aarav Wind Systems,INPY02,AARAV,Renewable Energy,Wind,core,Synthetic qualifying-revenue and filing evidence; public source citations not present,2020-01-01,,SYNTHETIC_DEMO
+C03,Neer Water Solutions,INPY03,NEER,Utilities,Water,core,Synthetic qualifying-revenue and filing evidence; public source citations not present,2020-01-01,,SYNTHETIC_DEMO
+C04,Prithvi Recycling,INPY04,PRITHVI,Industrials,Waste,core,Synthetic qualifying-revenue and filing evidence; public source citations not present,2020-01-01,,SYNTHETIC_DEMO
+C05,Vaayu Grid Technology,INPY05,VAAYU,Industrials,Grid,core,Synthetic qualifying-revenue and filing evidence; public source citations not present,2020-01-01,,SYNTHETIC_DEMO
+C06,Harit Battery Systems,INPY06,HARIT,Industrials,Battery,core,Synthetic qualifying-revenue and filing evidence; public source citations not present,2020-01-01,,SYNTHETIC_DEMO
+C07,Nadi Waste Recovery,INPY07,NADI,Utilities,Waste,core,Synthetic qualifying-revenue and filing evidence; public source citations not present,2020-01-01,,SYNTHETIC_DEMO
+C08,Agni EV Components,INPY08,AGNI,Automotive,EV,core,Synthetic qualifying-revenue and filing evidence; public source citations not present,2020-01-01,,SYNTHETIC_DEMO
+C09,Jal Energy Efficiency,INPY09,JALEFF,Industrials,Efficiency,core,Synthetic qualifying-revenue and filing evidence; public source citations not present,2020-01-01,,SYNTHETIC_DEMO
+C10,Vana Battery Materials,INPY10,VANA,Materials,Battery,core,Synthetic qualifying-revenue and filing evidence; public source citations not present,2020-01-01,,SYNTHETIC_DEMO
