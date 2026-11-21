@@ -17,4 +17,4 @@ jobs:
       - run: python data_generation/make_company_master.py
       - run: python data_generation/make_mock_data.py
       - run: python tests/validate_data.py
-      - run: pytest -q tests/
+      - run: python -m pytest -q tests/
