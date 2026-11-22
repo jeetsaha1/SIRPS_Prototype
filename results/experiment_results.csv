@@ -1,0 +1,13 @@
+experiment_a,experiment_b,model,scope,delta_msfe,ci_low,ci_high,clark_west_stat,clark_west_p,h2_p,n_dates,n_episodes,inferential_flag,data_source
+A_prime,B,Ridge,All,-0.001197,-0.001911,-0.000408,3.1881,0.0007,0.0008,139,5,True,SYNTHETIC_DEMO
+A_prime,B,Ridge,Bull,-0.000821,-0.001978,8.1e-05,1.9582,0.0251,0.0264,83,2,True,SYNTHETIC_DEMO
+A_prime,B,Ridge,Neutral,-0.000306,-0.000918,-8.8e-05,3.5793,0.0002,0.0002,12,2,False,SYNTHETIC_DEMO
+A_prime,B,Ridge,Bear,-0.002147,-0.003997,-0.000812,3.2165,0.0006,0.0007,44,2,False,SYNTHETIC_DEMO
+A_prime,B,Random Forest,All,0.000447,-0.000877,0.00176,0.981,0.1633,0.1715,139,5,True,SYNTHETIC_DEMO
+A_prime,B,Random Forest,Bull,-2.1e-05,-0.000172,0.000248,1.9966,0.0229,0.0241,83,2,True,SYNTHETIC_DEMO
+A_prime,B,Random Forest,Neutral,0.000687,6.5e-05,0.001233,-1.3038,0.9039,0.949,12,2,False,SYNTHETIC_DEMO
+A_prime,B,Random Forest,Bear,0.001264,-0.002196,0.00533,0.9144,0.1803,0.1893,44,2,False,SYNTHETIC_DEMO
+A_prime,B,XGBoost,All,0.000657,-0.001465,0.002738,2.0692,0.0193,0.0202,139,5,True,SYNTHETIC_DEMO
+A_prime,B,XGBoost,Bull,-0.00072,-0.001554,-4.6e-05,2.1289,0.0166,0.0175,83,2,True,SYNTHETIC_DEMO
+A_prime,B,XGBoost,Neutral,0.003107,0.001781,0.003619,-0.9755,0.8353,0.8771,12,2,False,SYNTHETIC_DEMO
+A_prime,B,XGBoost,Bear,0.002585,-0.002268,0.009411,1.2771,0.1008,0.1058,44,2,False,SYNTHETIC_DEMO

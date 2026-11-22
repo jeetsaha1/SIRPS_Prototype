@@ -1,0 +1,229 @@
+experiment,model,feature,feature_group,importance,data_source
+A,Ridge,ret_5d,technical,0.01,SYNTHETIC_DEMO
+A,Ridge,ret_21d,technical,0.05,SYNTHETIC_DEMO
+A,Ridge,ret_63d,technical,0.12,SYNTHETIC_DEMO
+A,Ridge,ret_126d,technical,0.03,SYNTHETIC_DEMO
+A,Ridge,mom_12_1,technical,0.16,SYNTHETIC_DEMO
+A,Ridge,price_ma50_ratio,technical,0.05,SYNTHETIC_DEMO
+A,Ridge,price_ma200_ratio,technical,0.04,SYNTHETIC_DEMO
+A,Ridge,vol_63d,technical,0.09,SYNTHETIC_DEMO
+A,Ridge,beta_126d,technical,0.08,SYNTHETIC_DEMO
+A,Ridge,rsi_14,technical,0.06,SYNTHETIC_DEMO
+A,Ridge,volume_ratio,technical,0.02,SYNTHETIC_DEMO
+A,Ridge,maxdd_126d,technical,0.01,SYNTHETIC_DEMO
+A,Ridge,nifty_ret_21d,market,0.022,SYNTHETIC_DEMO
+A,Ridge,nifty_ret_63d,market,0.077,SYNTHETIC_DEMO
+A,Ridge,nifty_vol_21d,market,0.088,SYNTHETIC_DEMO
+A,Ridge,india_vix,market,0.066,SYNTHETIC_DEMO
+A,Ridge,vix_chg_21d,market,0.011,SYNTHETIC_DEMO
+A,Ridge,nifty_drawdown,market,0.022,SYNTHETIC_DEMO
+A,Random Forest,ret_5d,technical,0.01,SYNTHETIC_DEMO
+A,Random Forest,ret_21d,technical,0.05,SYNTHETIC_DEMO
+A,Random Forest,ret_63d,technical,0.12,SYNTHETIC_DEMO
+A,Random Forest,ret_126d,technical,0.03,SYNTHETIC_DEMO
+A,Random Forest,mom_12_1,technical,0.16,SYNTHETIC_DEMO
+A,Random Forest,price_ma50_ratio,technical,0.05,SYNTHETIC_DEMO
+A,Random Forest,price_ma200_ratio,technical,0.04,SYNTHETIC_DEMO
+A,Random Forest,vol_63d,technical,0.09,SYNTHETIC_DEMO
+A,Random Forest,beta_126d,technical,0.08,SYNTHETIC_DEMO
+A,Random Forest,rsi_14,technical,0.06,SYNTHETIC_DEMO
+A,Random Forest,volume_ratio,technical,0.02,SYNTHETIC_DEMO
+A,Random Forest,maxdd_126d,technical,0.01,SYNTHETIC_DEMO
+A,Random Forest,nifty_ret_21d,market,0.02,SYNTHETIC_DEMO
+A,Random Forest,nifty_ret_63d,market,0.07,SYNTHETIC_DEMO
+A,Random Forest,nifty_vol_21d,market,0.08,SYNTHETIC_DEMO
+A,Random Forest,india_vix,market,0.06,SYNTHETIC_DEMO
+A,Random Forest,vix_chg_21d,market,0.01,SYNTHETIC_DEMO
+A,Random Forest,nifty_drawdown,market,0.02,SYNTHETIC_DEMO
+A,XGBoost,ret_5d,technical,0.0115,SYNTHETIC_DEMO
+A,XGBoost,ret_21d,technical,0.0575,SYNTHETIC_DEMO
+A,XGBoost,ret_63d,technical,0.138,SYNTHETIC_DEMO
+A,XGBoost,ret_126d,technical,0.0345,SYNTHETIC_DEMO
+A,XGBoost,mom_12_1,technical,0.184,SYNTHETIC_DEMO
+A,XGBoost,price_ma50_ratio,technical,0.0575,SYNTHETIC_DEMO
+A,XGBoost,price_ma200_ratio,technical,0.046,SYNTHETIC_DEMO
+A,XGBoost,vol_63d,technical,0.1035,SYNTHETIC_DEMO
+A,XGBoost,beta_126d,technical,0.092,SYNTHETIC_DEMO
+A,XGBoost,rsi_14,technical,0.069,SYNTHETIC_DEMO
+A,XGBoost,volume_ratio,technical,0.023,SYNTHETIC_DEMO
+A,XGBoost,maxdd_126d,technical,0.0115,SYNTHETIC_DEMO
+A,XGBoost,nifty_ret_21d,market,0.02,SYNTHETIC_DEMO
+A,XGBoost,nifty_ret_63d,market,0.07,SYNTHETIC_DEMO
+A,XGBoost,nifty_vol_21d,market,0.08,SYNTHETIC_DEMO
+A,XGBoost,india_vix,market,0.06,SYNTHETIC_DEMO
+A,XGBoost,vix_chg_21d,market,0.01,SYNTHETIC_DEMO
+A,XGBoost,nifty_drawdown,market,0.02,SYNTHETIC_DEMO
+A_prime,Ridge,ret_5d,technical,0.01,SYNTHETIC_DEMO
+A_prime,Ridge,ret_21d,technical,0.05,SYNTHETIC_DEMO
+A_prime,Ridge,ret_63d,technical,0.12,SYNTHETIC_DEMO
+A_prime,Ridge,ret_126d,technical,0.03,SYNTHETIC_DEMO
+A_prime,Ridge,mom_12_1,technical,0.16,SYNTHETIC_DEMO
+A_prime,Ridge,price_ma50_ratio,technical,0.05,SYNTHETIC_DEMO
+A_prime,Ridge,price_ma200_ratio,technical,0.04,SYNTHETIC_DEMO
+A_prime,Ridge,vol_63d,technical,0.09,SYNTHETIC_DEMO
+A_prime,Ridge,beta_126d,technical,0.08,SYNTHETIC_DEMO
+A_prime,Ridge,rsi_14,technical,0.06,SYNTHETIC_DEMO
+A_prime,Ridge,volume_ratio,technical,0.02,SYNTHETIC_DEMO
+A_prime,Ridge,maxdd_126d,technical,0.01,SYNTHETIC_DEMO
+A_prime,Ridge,nifty_ret_21d,market,0.022,SYNTHETIC_DEMO
+A_prime,Ridge,nifty_ret_63d,market,0.077,SYNTHETIC_DEMO
+A_prime,Ridge,nifty_vol_21d,market,0.088,SYNTHETIC_DEMO
+A_prime,Ridge,india_vix,market,0.066,SYNTHETIC_DEMO
+A_prime,Ridge,vix_chg_21d,market,0.011,SYNTHETIC_DEMO
+A_prime,Ridge,nifty_drawdown,market,0.022,SYNTHETIC_DEMO
+A_prime,Random Forest,ret_5d,technical,0.01,SYNTHETIC_DEMO
+A_prime,Random Forest,ret_21d,technical,0.05,SYNTHETIC_DEMO
+A_prime,Random Forest,ret_63d,technical,0.12,SYNTHETIC_DEMO
+A_prime,Random Forest,ret_126d,technical,0.03,SYNTHETIC_DEMO
+A_prime,Random Forest,mom_12_1,technical,0.16,SYNTHETIC_DEMO
+A_prime,Random Forest,price_ma50_ratio,technical,0.05,SYNTHETIC_DEMO
+A_prime,Random Forest,price_ma200_ratio,technical,0.04,SYNTHETIC_DEMO
+A_prime,Random Forest,vol_63d,technical,0.09,SYNTHETIC_DEMO
+A_prime,Random Forest,beta_126d,technical,0.08,SYNTHETIC_DEMO
+A_prime,Random Forest,rsi_14,technical,0.06,SYNTHETIC_DEMO
+A_prime,Random Forest,volume_ratio,technical,0.02,SYNTHETIC_DEMO
+A_prime,Random Forest,maxdd_126d,technical,0.01,SYNTHETIC_DEMO
+A_prime,Random Forest,nifty_ret_21d,market,0.02,SYNTHETIC_DEMO
+A_prime,Random Forest,nifty_ret_63d,market,0.07,SYNTHETIC_DEMO
+A_prime,Random Forest,nifty_vol_21d,market,0.08,SYNTHETIC_DEMO
+A_prime,Random Forest,india_vix,market,0.06,SYNTHETIC_DEMO
+A_prime,Random Forest,vix_chg_21d,market,0.01,SYNTHETIC_DEMO
+A_prime,Random Forest,nifty_drawdown,market,0.02,SYNTHETIC_DEMO
+A_prime,XGBoost,ret_5d,technical,0.0115,SYNTHETIC_DEMO
+A_prime,XGBoost,ret_21d,technical,0.0575,SYNTHETIC_DEMO
+A_prime,XGBoost,ret_63d,technical,0.138,SYNTHETIC_DEMO
+A_prime,XGBoost,ret_126d,technical,0.0345,SYNTHETIC_DEMO
+A_prime,XGBoost,mom_12_1,technical,0.184,SYNTHETIC_DEMO
+A_prime,XGBoost,price_ma50_ratio,technical,0.0575,SYNTHETIC_DEMO
+A_prime,XGBoost,price_ma200_ratio,technical,0.046,SYNTHETIC_DEMO
+A_prime,XGBoost,vol_63d,technical,0.1035,SYNTHETIC_DEMO
+A_prime,XGBoost,beta_126d,technical,0.092,SYNTHETIC_DEMO
+A_prime,XGBoost,rsi_14,technical,0.069,SYNTHETIC_DEMO
+A_prime,XGBoost,volume_ratio,technical,0.023,SYNTHETIC_DEMO
+A_prime,XGBoost,maxdd_126d,technical,0.0115,SYNTHETIC_DEMO
+A_prime,XGBoost,nifty_ret_21d,market,0.02,SYNTHETIC_DEMO
+A_prime,XGBoost,nifty_ret_63d,market,0.07,SYNTHETIC_DEMO
+A_prime,XGBoost,nifty_vol_21d,market,0.08,SYNTHETIC_DEMO
+A_prime,XGBoost,india_vix,market,0.06,SYNTHETIC_DEMO
+A_prime,XGBoost,vix_chg_21d,market,0.01,SYNTHETIC_DEMO
+A_prime,XGBoost,nifty_drawdown,market,0.02,SYNTHETIC_DEMO
+B,Ridge,ret_5d,technical,0.01,SYNTHETIC_DEMO
+B,Ridge,ret_21d,technical,0.05,SYNTHETIC_DEMO
+B,Ridge,ret_63d,technical,0.12,SYNTHETIC_DEMO
+B,Ridge,ret_126d,technical,0.03,SYNTHETIC_DEMO
+B,Ridge,mom_12_1,technical,0.16,SYNTHETIC_DEMO
+B,Ridge,price_ma50_ratio,technical,0.05,SYNTHETIC_DEMO
+B,Ridge,price_ma200_ratio,technical,0.04,SYNTHETIC_DEMO
+B,Ridge,vol_63d,technical,0.09,SYNTHETIC_DEMO
+B,Ridge,beta_126d,technical,0.08,SYNTHETIC_DEMO
+B,Ridge,rsi_14,technical,0.06,SYNTHETIC_DEMO
+B,Ridge,volume_ratio,technical,0.02,SYNTHETIC_DEMO
+B,Ridge,maxdd_126d,technical,0.01,SYNTHETIC_DEMO
+B,Ridge,nifty_ret_21d,market,0.022,SYNTHETIC_DEMO
+B,Ridge,nifty_ret_63d,market,0.077,SYNTHETIC_DEMO
+B,Ridge,nifty_vol_21d,market,0.088,SYNTHETIC_DEMO
+B,Ridge,india_vix,market,0.066,SYNTHETIC_DEMO
+B,Ridge,vix_chg_21d,market,0.011,SYNTHETIC_DEMO
+B,Ridge,nifty_drawdown,market,0.022,SYNTHETIC_DEMO
+B,Ridge,esg_total,ESG,0.05,SYNTHETIC_DEMO
+B,Ridge,esg_coverage,ESG,0.03,SYNTHETIC_DEMO
+B,Random Forest,ret_5d,technical,0.01,SYNTHETIC_DEMO
+B,Random Forest,ret_21d,technical,0.05,SYNTHETIC_DEMO
+B,Random Forest,ret_63d,technical,0.12,SYNTHETIC_DEMO
+B,Random Forest,ret_126d,technical,0.03,SYNTHETIC_DEMO
+B,Random Forest,mom_12_1,technical,0.16,SYNTHETIC_DEMO
+B,Random Forest,price_ma50_ratio,technical,0.05,SYNTHETIC_DEMO
+B,Random Forest,price_ma200_ratio,technical,0.04,SYNTHETIC_DEMO
+B,Random Forest,vol_63d,technical,0.09,SYNTHETIC_DEMO
+B,Random Forest,beta_126d,technical,0.08,SYNTHETIC_DEMO
+B,Random Forest,rsi_14,technical,0.06,SYNTHETIC_DEMO
+B,Random Forest,volume_ratio,technical,0.02,SYNTHETIC_DEMO
+B,Random Forest,maxdd_126d,technical,0.01,SYNTHETIC_DEMO
+B,Random Forest,nifty_ret_21d,market,0.02,SYNTHETIC_DEMO
+B,Random Forest,nifty_ret_63d,market,0.07,SYNTHETIC_DEMO
+B,Random Forest,nifty_vol_21d,market,0.08,SYNTHETIC_DEMO
+B,Random Forest,india_vix,market,0.06,SYNTHETIC_DEMO
+B,Random Forest,vix_chg_21d,market,0.01,SYNTHETIC_DEMO
+B,Random Forest,nifty_drawdown,market,0.02,SYNTHETIC_DEMO
+B,Random Forest,esg_total,ESG,0.05,SYNTHETIC_DEMO
+B,Random Forest,esg_coverage,ESG,0.03,SYNTHETIC_DEMO
+B,XGBoost,ret_5d,technical,0.0115,SYNTHETIC_DEMO
+B,XGBoost,ret_21d,technical,0.0575,SYNTHETIC_DEMO
+B,XGBoost,ret_63d,technical,0.138,SYNTHETIC_DEMO
+B,XGBoost,ret_126d,technical,0.0345,SYNTHETIC_DEMO
+B,XGBoost,mom_12_1,technical,0.184,SYNTHETIC_DEMO
+B,XGBoost,price_ma50_ratio,technical,0.0575,SYNTHETIC_DEMO
+B,XGBoost,price_ma200_ratio,technical,0.046,SYNTHETIC_DEMO
+B,XGBoost,vol_63d,technical,0.1035,SYNTHETIC_DEMO
+B,XGBoost,beta_126d,technical,0.092,SYNTHETIC_DEMO
+B,XGBoost,rsi_14,technical,0.069,SYNTHETIC_DEMO
+B,XGBoost,volume_ratio,technical,0.023,SYNTHETIC_DEMO
+B,XGBoost,maxdd_126d,technical,0.0115,SYNTHETIC_DEMO
+B,XGBoost,nifty_ret_21d,market,0.02,SYNTHETIC_DEMO
+B,XGBoost,nifty_ret_63d,market,0.07,SYNTHETIC_DEMO
+B,XGBoost,nifty_vol_21d,market,0.08,SYNTHETIC_DEMO
+B,XGBoost,india_vix,market,0.06,SYNTHETIC_DEMO
+B,XGBoost,vix_chg_21d,market,0.01,SYNTHETIC_DEMO
+B,XGBoost,nifty_drawdown,market,0.02,SYNTHETIC_DEMO
+B,XGBoost,esg_total,ESG,0.05,SYNTHETIC_DEMO
+B,XGBoost,esg_coverage,ESG,0.03,SYNTHETIC_DEMO
+C,Ridge,ret_5d,technical,0.01,SYNTHETIC_DEMO
+C,Ridge,ret_21d,technical,0.05,SYNTHETIC_DEMO
+C,Ridge,ret_63d,technical,0.12,SYNTHETIC_DEMO
+C,Ridge,ret_126d,technical,0.03,SYNTHETIC_DEMO
+C,Ridge,mom_12_1,technical,0.16,SYNTHETIC_DEMO
+C,Ridge,price_ma50_ratio,technical,0.05,SYNTHETIC_DEMO
+C,Ridge,price_ma200_ratio,technical,0.04,SYNTHETIC_DEMO
+C,Ridge,vol_63d,technical,0.09,SYNTHETIC_DEMO
+C,Ridge,beta_126d,technical,0.08,SYNTHETIC_DEMO
+C,Ridge,rsi_14,technical,0.06,SYNTHETIC_DEMO
+C,Ridge,volume_ratio,technical,0.02,SYNTHETIC_DEMO
+C,Ridge,maxdd_126d,technical,0.01,SYNTHETIC_DEMO
+C,Ridge,nifty_ret_21d,market,0.022,SYNTHETIC_DEMO
+C,Ridge,nifty_ret_63d,market,0.077,SYNTHETIC_DEMO
+C,Ridge,nifty_vol_21d,market,0.088,SYNTHETIC_DEMO
+C,Ridge,india_vix,market,0.066,SYNTHETIC_DEMO
+C,Ridge,vix_chg_21d,market,0.011,SYNTHETIC_DEMO
+C,Ridge,nifty_drawdown,market,0.022,SYNTHETIC_DEMO
+C,Ridge,esg_total,ESG,0.05,SYNTHETIC_DEMO
+C,Ridge,esg_coverage,ESG,0.03,SYNTHETIC_DEMO
+C,Random Forest,ret_5d,technical,0.01,SYNTHETIC_DEMO
+C,Random Forest,ret_21d,technical,0.05,SYNTHETIC_DEMO
+C,Random Forest,ret_63d,technical,0.12,SYNTHETIC_DEMO
+C,Random Forest,ret_126d,technical,0.03,SYNTHETIC_DEMO
+C,Random Forest,mom_12_1,technical,0.16,SYNTHETIC_DEMO
+C,Random Forest,price_ma50_ratio,technical,0.05,SYNTHETIC_DEMO
+C,Random Forest,price_ma200_ratio,technical,0.04,SYNTHETIC_DEMO
+C,Random Forest,vol_63d,technical,0.09,SYNTHETIC_DEMO
+C,Random Forest,beta_126d,technical,0.08,SYNTHETIC_DEMO
+C,Random Forest,rsi_14,technical,0.06,SYNTHETIC_DEMO
+C,Random Forest,volume_ratio,technical,0.02,SYNTHETIC_DEMO
+C,Random Forest,maxdd_126d,technical,0.01,SYNTHETIC_DEMO
+C,Random Forest,nifty_ret_21d,market,0.02,SYNTHETIC_DEMO
+C,Random Forest,nifty_ret_63d,market,0.07,SYNTHETIC_DEMO
+C,Random Forest,nifty_vol_21d,market,0.08,SYNTHETIC_DEMO
+C,Random Forest,india_vix,market,0.06,SYNTHETIC_DEMO
+C,Random Forest,vix_chg_21d,market,0.01,SYNTHETIC_DEMO
+C,Random Forest,nifty_drawdown,market,0.02,SYNTHETIC_DEMO
+C,Random Forest,esg_total,ESG,0.05,SYNTHETIC_DEMO
+C,Random Forest,esg_coverage,ESG,0.03,SYNTHETIC_DEMO
+C,XGBoost,ret_5d,technical,0.0115,SYNTHETIC_DEMO
+C,XGBoost,ret_21d,technical,0.0575,SYNTHETIC_DEMO
+C,XGBoost,ret_63d,technical,0.138,SYNTHETIC_DEMO
+C,XGBoost,ret_126d,technical,0.0345,SYNTHETIC_DEMO
+C,XGBoost,mom_12_1,technical,0.184,SYNTHETIC_DEMO
+C,XGBoost,price_ma50_ratio,technical,0.0575,SYNTHETIC_DEMO
+C,XGBoost,price_ma200_ratio,technical,0.046,SYNTHETIC_DEMO
+C,XGBoost,vol_63d,technical,0.1035,SYNTHETIC_DEMO
+C,XGBoost,beta_126d,technical,0.092,SYNTHETIC_DEMO
+C,XGBoost,rsi_14,technical,0.069,SYNTHETIC_DEMO
+C,XGBoost,volume_ratio,technical,0.023,SYNTHETIC_DEMO
+C,XGBoost,maxdd_126d,technical,0.0115,SYNTHETIC_DEMO
+C,XGBoost,nifty_ret_21d,market,0.02,SYNTHETIC_DEMO
+C,XGBoost,nifty_ret_63d,market,0.07,SYNTHETIC_DEMO
+C,XGBoost,nifty_vol_21d,market,0.08,SYNTHETIC_DEMO
+C,XGBoost,india_vix,market,0.06,SYNTHETIC_DEMO
+C,XGBoost,vix_chg_21d,market,0.01,SYNTHETIC_DEMO
+C,XGBoost,nifty_drawdown,market,0.02,SYNTHETIC_DEMO
+C,XGBoost,esg_total,ESG,0.05,SYNTHETIC_DEMO
+C,XGBoost,esg_coverage,ESG,0.03,SYNTHETIC_DEMO

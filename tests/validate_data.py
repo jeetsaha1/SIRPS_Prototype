@@ -4,6 +4,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
+import numpy as np
 import pandas as pd
 
 from common.schemas import FILES
@@ -142,11 +143,44 @@ def validate_targets() -> None:
             return
     if frame["y_excess"].isna().any() or frame["y_abs"].isna().any():
         fail("target_values", "NaN target in model_dataset")
-    elif (frame["entry_date"] >= frame["target_end_date"]).any():
+        return
+    if (frame["entry_date"] >= frame["target_end_date"]).any():
         fail("target_dates", "entry_date must precede target_end_date")
-    else:
-        pass_check("target_dates")
-        pass_check("target_values")
+        return
+
+    # Blueprint requirement: verify target recomputation to within 1e-9 tolerance
+    prices = load_schema("prices_daily")
+    index = load_schema("index_daily")
+    if not prices.empty and not index.empty:
+        px_map = prices.set_index(["company_id", "date"])["adj_close"].to_dict()
+        tri_map = index.set_index("date")["nifty_tri"].to_dict()
+        max_diff_excess = 0.0
+        max_diff_abs = 0.0
+        for _, row in frame.iterrows():
+            cid = row["company_id"]
+            d_en = row["entry_date"]
+            d_ex = row["target_end_date"]
+            p_en = px_map.get((cid, d_en))
+            p_ex = px_map.get((cid, d_ex))
+            t_en = tri_map.get(d_en)
+            t_ex = tri_map.get(d_ex)
+            if p_en and p_ex and t_en and t_ex and p_en > 0 and t_en > 0:
+                calc_abs = np.log(p_exit := p_ex / p_en)
+                calc_excess = calc_abs - np.log(t_ex / t_en)
+                diff_e = abs(calc_excess - row["y_excess"])
+                diff_a = abs(calc_abs - row["y_abs"])
+                if diff_e > max_diff_excess:
+                    max_diff_excess = diff_e
+                if diff_a > max_diff_abs:
+                    max_diff_abs = diff_a
+
+        if max_diff_excess > 1e-9 or max_diff_abs > 1e-9:
+            fail("target_recomputation", f"recomputed target mismatch: max diff excess={max_diff_excess:.2e}, abs={max_diff_abs:.2e}")
+            return
+        pass_check("target_recomputation")
+
+    pass_check("target_dates")
+    pass_check("target_values")
 
 
 def validate_predictions() -> None:

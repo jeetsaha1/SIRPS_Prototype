@@ -15,11 +15,11 @@ def init_state() -> None:
 def demo_banner(names=None) -> None:
     names = names or ["company_master"]
     using_mock = any(is_using_mock(name) for name in names)
-    st.caption("Synthetic data demonstrator")
+    st.caption("🔬 SIRPS Synthetic Research Prototype (SYNTHETIC_DEMO=1)")
     if using_mock:
-        st.warning("Using mock data. This is not real market data or investment evidence.")
+        st.warning("⚠️ **Prototype Demo Notice (Mock Mode)**: Loading fallback preview data from `data/mock/`. All figures are synthetic demonstrations and do not represent real-market data or investment advice.")
     else:
-        st.info("Using generated data marked SYNTHETIC_DEMO.")
+        st.info("ℹ️ **Synthetic Research Prototype**: Operating on generated point-in-time data marked `SYNTHETIC_DEMO=1`. All signals, models, and predictions validate pipeline architecture and econometric mechanics, not real market evidence.")
 
 
 def company_selector(companies) -> str:

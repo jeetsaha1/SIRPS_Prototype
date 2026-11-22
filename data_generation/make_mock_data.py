@@ -167,14 +167,15 @@ def build() -> None:
             })
     save("fundamentals_pit.csv", pd.DataFrame(fundamentals))
 
+    reg_names = (["Bull"] * 300 + ["Bear"] * 150 + ["Neutral"] * 100 + ["Bull"] * 450 + ["Bear"] * 150 + ["Bull"] * 500)[:len(dates)]
     regime_frame = pd.DataFrame({
-        "date": index["date"][:20],
-        "close": index["nifty_close"].iloc[:20].to_numpy(),
-        "ma50": index["nifty_close"].iloc[:20].rolling(50, min_periods=1).mean().to_numpy(),
-        "ma200": index["nifty_close"].iloc[:20].rolling(200, min_periods=1).mean().to_numpy(),
-        "drawdown_252": rng.uniform(-0.25, 0.02, 20),
-        "raw_regime": np.resize(["Bull", "Neutral", "Bear"], 20),
-        "confirmed_regime": np.resize(["Bull", "Neutral", "Bear"], 20),
+        "date": index["date"],
+        "close": index["nifty_close"].to_numpy(),
+        "ma50": index["nifty_close"].rolling(50, min_periods=1).mean().to_numpy(),
+        "ma200": index["nifty_close"].rolling(200, min_periods=1).mean().to_numpy(),
+        "drawdown_252": rng.uniform(-0.25, 0.02, len(dates)),
+        "raw_regime": reg_names,
+        "confirmed_regime": reg_names,
         "data_source": SOURCE,
     })
     save("regime_daily.csv", regime_frame)
